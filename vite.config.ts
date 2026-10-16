@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Peshini/', // <--- THIS IS THE MISSING PIECE
+  base: '/Peshini/', // <--- THIS IS THE FIX
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
